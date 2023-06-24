@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.container_game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    width:100vw;
+    height: 100vh;
+}
+.palcar{
+    display: flex;
+    justify-content: space-between;
+
+    width: 800px;
+    font-size: 35px;
+
+    margin-bottom: 15px;
+
+    color: wheat;
+
+}
+.bg_masck{
+    background-image: url('./assets/bg..jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 800px;
+    height: 400px;
+}
+.content_game_space{
+    position: relative;
+    display: flex;
+    
+    background-color: rgba(0, 0, 0, 0.925);
+  
+    width: 800px;
+    height: 400px;
+}
+.space_players{
+    border: 1px solid rgb(214, 214, 214);
+    width: 50%;
+    height: 100%;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.player{
+    position: absolute;
+    background-color:rgb(214, 214, 214);
+    width:25px;
+    height: 90px;
+}
+._one{
+    top: 40%;
+}
+._two{
+    top: 40%;
+}
